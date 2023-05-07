@@ -1,0 +1,14 @@
+.filterContainer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.filter {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.inputFilter {
+  margin-left: 5px;
+}

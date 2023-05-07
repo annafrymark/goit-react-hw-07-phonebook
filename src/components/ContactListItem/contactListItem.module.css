@@ -1,0 +1,12 @@
+.contactListItem{
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 5px;
+}
+
+.deleteButton {
+ width: 70px;
+  padding: 1px;
+  cursor: pointer;
+ 
+}
