@@ -34,6 +34,7 @@ const ContactForm = () => {
   };
 
   const nameInputId = nanoid();
+  const numberInputId = nanoid();
 
   return (
     <form onSubmit={handleSubmit} className={css.contactForm}>
@@ -48,6 +49,7 @@ const ContactForm = () => {
       />
       <label htmlFor="number">Number</label>
       <input
+        id={numberInputId}
         type="tel"
         name="number"
         pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
